@@ -12,8 +12,8 @@ Collection link: https://restful-booker.herokuapp.com/apidoc/index.html#api-Book
 <h2>Tests performed</h2>
 
 <ol>
-<li>Verify that the API is up and running</li>
-
+<h4><li>Verify that the API is up and running  </li> </h4> 
+  
 HTTP method for request: **GET** <br>
 Request description: **A simple health check endpoint to confirm whether the API is up and running.** <br>
 Test types / techniques used: **Sanity testing**<br>
@@ -28,21 +28,51 @@ Response status code: **201 Created** <br>
 
 ![request 1 tests](https://github.com/Dianab05/Projects/assets/166596469/bb9c8397-233b-4fc1-814a-abf4531282d5)
 
-<li>Verify if all bookings ids are displayed</li>
+
+<h4><li> Verify if all bookings ids are displayed </li> </h4> 
 
 HTTP method for request: **GET** <br>
 Request description: **Returns the ids of all the bookings that exist within the API. Can take optional query strings to search and return a subset of booking ids.** <br>
 Test types / techniques used: **Functional testing**<br>
 Response status code: **200 OK** <br>
 
-**Below you can find a picture of the API request from Postman:**
-<br>
+**Below you can find a picture of the API request from Postman:** <br>
+
 ![request 2](https://github.com/Dianab05/Projects/assets/166596469/e4973156-7407-40cc-953d-bd53dd6cdc1e)
 <br>
 
 **JavaScript Tests:**
 ![request 2 tests](https://github.com/Dianab05/Projects/assets/166596469/8edd2c66-40cc-4c40-8b4d-59b8715b9f1d)
 <br>
+
+<h4><li> Verify if bookings can be filtered by firstname/lastname </li> </h4> 
+
+HTTP method for request: **GET** <br>
+Request description: **Return bookings with a specific firstname/lastname** <br>
+Test types / techniques used: **Functional testing**<br>
+Response status code: **200 OK** <br>
+
+**Below you can find a picture of the API request from Postman:** <br>
+![request 3 ](https://github.com/Dianab05/Projects/assets/166596469/2be00a93-0be8-450e-8ad7-81076ff7a05a)
+
+**JavaScript Tests:**
+![request 3 tests](https://github.com/Dianab05/Projects/assets/166596469/68bfc797-8440-41a2-950c-5f012865f482)
+
+<h4><li> Verify if informations are displayed about one specific booking</li> </h4> 
+
+HTTP method for request: **GET** <br>
+Request description: **Returns a specific booking based upon the booking id provided** <br>
+Test types / techniques used: **Functional testing**<br>
+Response status code: **200 OK** <br>
+
+**Below you can find a picture of the API request from Postman:** <br>
+![request 4](https://github.com/Dianab05/Projects/assets/166596469/f00f82f5-3532-4d68-b104-1d780ac2fc28)
+
+**JavaScript Tests:**
+
+![request 4 tests](https://github.com/Dianab05/Projects/assets/166596469/1b327515-b395-4704-96d4-0a58bcea187f)
+
+
 
 .............
 
