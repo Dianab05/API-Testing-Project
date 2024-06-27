@@ -19,28 +19,30 @@ Request description: **A simple health check endpoint to confirm whether the API
 Test types / techniques used: **Sanity testing**<br>
 Response status code: **201 Created** <br>
 
-Below you can find a picture of the API request from Postman:<br>
+**Below you can find a picture of the API request from Postman:**
+<br>
 
-![request 1.png](request%201.png)
+![request 1](https://github.com/Dianab05/Projects/assets/166596469/a1acbad4-21b4-45d7-bd95-f5a6ce1d29a1)
 
-JavaScript Tests:
+**JavaScript Tests:**
 
-![request 1 tests.png](request%201%20tests.png)
+![request 1 tests](https://github.com/Dianab05/Projects/assets/166596469/bb9c8397-233b-4fc1-814a-abf4531282d5)
 
-<li>**Nume Request 2**</li>
+<li>Verify if all bookings ids are displayed</li>
 
-HTTP method for request: **Inserati aici metoda HTTP a requestului**<br>
-Request description: **Inserati o scurta descriere a requestului, conform documentatiei de API**<br>
-Test types / techniques used: **Inserati tipurile si tehnicile de testare folosite pentru acest request**<br>
-Response status code: **Inserati aici status code-ul pe care l-ati obtinut in urma executiei requestului**<br>
+HTTP method for request: **GET** <br>
+Request description: **Returns the ids of all the bookings that exist within the API. Can take optional query strings to search and return a subset of booking ids.** <br>
+Test types / techniques used: **Functional testing**<br>
+Response status code: **200 OK** <br>
 
-Below you can find a picture of the API request from Postman:<br>
+**Below you can find a picture of the API request from Postman:**
+<br>
+![request 2](https://github.com/Dianab05/Projects/assets/166596469/e4973156-7407-40cc-953d-bd53dd6cdc1e)
+<br>
 
-**Inserati aici o poza cu requestul din postman in care sa se observe request method, endpoint, request body si response body**<br>
-
-JavaScript Tests:
-
-**Inserati aici o poza cu testele in java script pe care le-ati definit impreuna cu rezultatele executiei acestora**<br>
+**JavaScript Tests:**
+![request 2 tests](https://github.com/Dianab05/Projects/assets/166596469/8edd2c66-40cc-4c40-8b4d-59b8715b9f1d)
+<br>
 
 .............
 
