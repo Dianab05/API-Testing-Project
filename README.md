@@ -219,7 +219,8 @@ The collection was also run through newman directly from the terminal, and the r
 
 ![newman sc](https://github.com/Dianab05/API-Testing-Project/assets/166596469/048495b7-3766-4c6e-8195-ad9666c07797)
 
-Link for newman collection runner: <br>
+Below you can find the link for Newman execution report: <br>
+https://github.com/Dianab05/API-Testing-Project/blob/main/restful-booker-2024-05-30-08-10-19-564-0.html
 
 **Inserati aici o poza cu raportul de executie din Newman**<br>
 
