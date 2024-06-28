@@ -22,11 +22,11 @@ Response status code: **201 Created** <br>
 **Below you can find a picture of the API request from Postman:**
 <br>
 
-![request 1](https://github.com/Dianab05/Projects/assets/166596469/a1acbad4-21b4-45d7-bd95-f5a6ce1d29a1)
+<img src="https://github.com/Dianab05/Projects/assets/166596469/a1acbad4-21b4-45d7-bd95-f5a6ce1d29a1" width="700" height="500">
 
 **JavaScript Tests:**
 
-![request 1 tests](https://github.com/Dianab05/Projects/assets/166596469/bb9c8397-233b-4fc1-814a-abf4531282d5)
+<img src="https://github.com/Dianab05/Projects/assets/166596469/bb9c8397-233b-4fc1-814a-abf4531282d5" width="700" height="500">
 
 
 <h4><li> Verify if all bookings ids are displayed </li> </h4> 
@@ -38,11 +38,12 @@ Response status code: **200 OK** <br>
 
 **Below you can find a picture of the API request from Postman:** <br>
 
-![request 2](https://github.com/Dianab05/Projects/assets/166596469/e4973156-7407-40cc-953d-bd53dd6cdc1e)
+<img src="https://github.com/Dianab05/Projects/assets/166596469/e4973156-7407-40cc-953d-bd53dd6cdc1e" width="700" height="500">
 <br>
 
 **JavaScript Tests:**
-![request 2 tests](https://github.com/Dianab05/Projects/assets/166596469/8edd2c66-40cc-4c40-8b4d-59b8715b9f1d)
+
+<img src="https://github.com/Dianab05/Projects/assets/166596469/8edd2c66-40cc-4c40-8b4d-59b8715b9f1d" width="700" height="500">
 <br>
 
 <h4><li> Verify if bookings can be filtered by firstname/lastname </li> </h4> 
@@ -53,10 +54,11 @@ Test types / techniques used: **Functional testing**<br>
 Response status code: **200 OK** <br>
 
 **Below you can find a picture of the API request from Postman:** <br>
-![request 3 ](https://github.com/Dianab05/Projects/assets/166596469/2be00a93-0be8-450e-8ad7-81076ff7a05a)
+<img src="https://github.com/Dianab05/Projects/assets/166596469/2be00a93-0be8-450e-8ad7-81076ff7a05a" width="700" height="500">
 
 **JavaScript Tests:**
-![request 3 tests](https://github.com/Dianab05/Projects/assets/166596469/68bfc797-8440-41a2-950c-5f012865f482)
+
+<img src="https://github.com/Dianab05/Projects/assets/166596469/68bfc797-8440-41a2-950c-5f012865f482" width="700" height="500">
 
 <h4><li> Verify if informations are displayed about one specific booking</li> </h4> 
 
@@ -66,30 +68,142 @@ Test types / techniques used: **Functional testing**<br>
 Response status code: **200 OK** <br>
 
 **Below you can find a picture of the API request from Postman:** <br>
-![request 4](https://github.com/Dianab05/Projects/assets/166596469/f00f82f5-3532-4d68-b104-1d780ac2fc28)
+<img src="https://github.com/Dianab05/Projects/assets/166596469/f00f82f5-3532-4d68-b104-1d780ac2fc28" width="700" height="500">
 
 **JavaScript Tests:**
 
-![request 4 tests](https://github.com/Dianab05/Projects/assets/166596469/1b327515-b395-4704-96d4-0a58bcea187f)
+<img src="https://github.com/Dianab05/Projects/assets/166596469/1b327515-b395-4704-96d4-0a58bcea187f" width="700" height="500">
+
+<h4><li>Negative testing - Verify if informations cannot be displayed about an invalid booking</li> </h4> 
+
+HTTP method for request: **GET** <br>
+Request description: **An error is displayed when entered an invalid booking id** <br>
+Test types / techniques used: **Negative testing**<br>
+Response status code: **404 Not Found** <br>
+
+**Below you can find a picture of the API request from Postman:** <br>
+
+<img src="https://github.com/Dianab05/API-Testing-Project/assets/166596469/7b594c76-6d93-4969-ba88-d2ebf9369864" width="700" height="500">
+
+**JavaScript Tests:**
+
+<img src="https://github.com/Dianab05/API-Testing-Project/assets/166596469/41da0ab9-b5c6-48d7-bd11-f1e306ef73ef" width="700" height="500">
 
 
+<h4><li>Verify if a new booking can be created</li> </h4> 
 
-.............
+HTTP method for request: **POST** <br>
+Request description: **Creates a new booking in the API** <br>
+Test types / techniques used: **Functional testing**<br>
+Response status code: **200 OK** <br>
 
-<li>**Nume Request n**</li>
+**Below you can find a picture of the API request from Postman:** <br>
 
-HTTP method for request: **Inserati aici metoda HTTP a requestului**<br>
-Request description: **Inserati o scurta descriere a requestului, conform documentatiei de API**<br>
-Test types / techniques used: **Inserati tipurile si tehnicile de testare folosite pentru acest request**<br>
-Response status code: **Inserati aici status code-ul pe care l-ati obtinut in urma executiei requestului**<br>
+<img src="https://github.com/Dianab05/API-Testing-Project/assets/166596469/777cf521-3979-44a2-ac8c-8007a1a9b1ab" width="700" height="500">
 
-Below you can find a picture of the API request from Postman:<br>
 
-**Inserati aici o poza cu requestul din postman in care sa se observe request method, endpoint, request body si response body**<br>
+**JavaScript Tests:**
 
-JavaScript Tests:
+<img src="https://github.com/Dianab05/API-Testing-Project/assets/166596469/1c1b0b65-2d39-473d-82c7-acd9a5eaaf4b" width="700" height="500">
 
-**Inserati aici o poza cu testele in java script pe care le-ati definit impreuna cu rezultatele executiei acestora**<br>
+
+<h4><li>Verify if a current booking can be updated</li> </h4> 
+
+HTTP method for request: **PUT** <br>
+Request description: **Updates a current booking** <br>
+Test types / techniques used: **Functional testing**<br>
+Response status code: **200 OK** <br>
+
+**Below you can find a picture of the API request from Postman:** <br>
+
+<img src="https://github.com/Dianab05/API-Testing-Project/assets/166596469/74b695c7-8334-4bee-9033-e28229038edd" width="700" height="500">
+
+
+**JavaScript Tests:**
+
+<img src="https://github.com/Dianab05/API-Testing-Project/assets/166596469/f8791919-0f12-452c-9aa5-697118e57ef4" width="700" height="500">
+
+<h4><li>Negative testing- Verify if an invalid booking cannot be updated</li> </h4> 
+
+HTTP method for request: **PUT** <br>
+Request description: **An error message is displayed when try to update an invalid booking id** <br>
+Test types / techniques used: **Negative testing**<br>
+Response status code: **405 Method Not Allowed** <br>
+
+**Below you can find a picture of the API request from Postman:** <br>
+
+<img src="https://github.com/Dianab05/API-Testing-Project/assets/166596469/e87ca30e-d44b-42f2-9404-a0c0d2c56e47" width="700" height="500">
+
+**JavaScript Tests:**
+
+<img src="https://github.com/Dianab05/API-Testing-Project/assets/166596469/59d05f5a-4fad-4184-80dc-ff5cbaa7f594" width="700" height="500">
+
+
+<h4><li>Verify if a current booking can be updated with partial payload</li> </h4> 
+
+HTTP method for request: **PATCH** <br>
+Request description: **Updates a current booking with a partial payload** <br>
+Test types / techniques used: **Functional testing**<br>
+Response status code: **200 OK** <br>
+
+**Below you can find a picture of the API request from Postman:** <br>
+
+<img src="https://github.com/Dianab05/API-Testing-Project/assets/166596469/24d31323-e564-4793-9822-39d9348b017d" width="700" height="500">
+
+**JavaScript Tests:**
+
+<img src="https://github.com/Dianab05/API-Testing-Project/assets/166596469/5f828b61-ec84-4020-9750-97c3ab450065" width="700" height="500">
+
+
+<h4><li>Negative testing- Verify if a current booking cannot be updated without authentication</li> </h4> 
+
+HTTP method for request: **PATCH** <br>
+Request description: **An error message is displayed when try to update a booking without authentication** <br>
+Test types / techniques used: **Negative testing**<br>
+Response status code: **403 Forbidden** <br>
+
+**Below you can find a picture of the API request from Postman:** <br>
+
+<img src="https://github.com/Dianab05/API-Testing-Project/assets/166596469/166f693e-a6a0-4fdf-b01d-2bef1489d9cc" width="700" height="500">
+
+
+**JavaScript Tests:**
+
+<img src="https://github.com/Dianab05/API-Testing-Project/assets/166596469/ad4be6c1-cef8-40c7-b831-15f793754b55" width="700" height="500">
+
+
+<h4><li>Verify if an existing booking can be deleted</li> </h4> 
+
+HTTP method for request: **DELETE** <br>
+Request description: **Delete a current booking from the API** <br>
+Test types / techniques used: **Functional testing**<br>
+Response status code: **201 Created** <br>
+
+**Below you can find a picture of the API request from Postman:** <br>
+
+<img src="https://github.com/Dianab05/API-Testing-Project/assets/166596469/e738995d-263c-481d-b387-a0288810bc92" width="700" height="500">
+
+**JavaScript Tests:**
+
+<img src="https://github.com/Dianab05/API-Testing-Project/assets/166596469/36416080-d03a-4a91-a251-efff6ce907ad" width="700" height="500">
+
+<h4><li>Negative testing - Verify that DELETE action cannot be performed without a booking id</li> </h4> 
+
+HTTP method for request: **DELETE** <br>
+Request description: **An error message is displayed when try to perform a delete action without mention a booking id** <br>
+Test types / techniques used: **Negative testing**<br>
+Response status code: **404 Not Found** <br>
+
+**Below you can find a picture of the API request from Postman:** <br>
+
+<img src="https://github.com/Dianab05/API-Testing-Project/assets/166596469/81aa73cc-5f2b-4fb4-9dd4-ae9ba53bbb8e" width="700" height="500">
+
+
+**JavaScript Tests:**
+
+<img src="https://github.com/Dianab05/API-Testing-Project/assets/166596469/00c85abe-ed7a-420a-9639-aa36be3aa52d" width="700" height="500">
+
+
 
 </ol>
 
