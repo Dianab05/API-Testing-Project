@@ -3,11 +3,13 @@
 
 The scope of this project is to use all  API knowledge gained throught the Software Testing course and apply them in practice, using a live application.
 
-Application under test: **Restful Booker**
+API under test: **Restful Booker**
+
+API documentation for the API restful-booker: https://restful-booker.herokuapp.com/apidoc/index.html#api-Booking
 
 Tools used: **Postman, Newman**
 
-Collection link: https://restful-booker.herokuapp.com/apidoc/index.html#api-Booking
+Collection link: https://github.com/Dianab05/API-Testing-Project/blob/main/restful-booker.postman_collection2
 
 <h2>Tests performed</h2>
 
@@ -214,6 +216,7 @@ Below you can find the execution report that was generated through the Postman c
 **Inserati aici o poza cu raportul de executie din Postman**<br>
 
 The collection was also run through newman directly from the terminal, and the results can be found below:<br>
+
 
 **Inserati aici o poza cu raportul de executie din Newman**<br>
 
