@@ -217,6 +217,9 @@ Below you can find the execution report that was generated through the Postman c
 
 The collection was also run through newman directly from the terminal, and the results can be found below:<br>
 
+![newman sc](https://github.com/Dianab05/API-Testing-Project/assets/166596469/048495b7-3766-4c6e-8195-ad9666c07797)
+
+Link for newman collection runner: <br>
 
 **Inserati aici o poza cu raportul de executie din Newman**<br>
 
