@@ -1,7 +1,7 @@
 # Projects
 <h1>API Testing Project for Restful Booker</h1>
 
-The scope of this project is to use all  API knowledge gained throught the Software Testing course and apply them in practice, using a live application.
+The scope of this project is to use all API knowledge gained throught the Software Testing course and apply them in practice, using a live application.
 
 API under test: **Restful Booker**
 
@@ -241,11 +241,16 @@ https://github.com/Dianab05/API-Testing-Project/blob/main/restful-booker-newman%
 
 The following issues were identified while running the postman tests:<br>
 
+![newman bugs1](https://github.com/Dianab05/API-Testing-Project/assets/166596469/8cf1d85a-dd20-49ee-bf92-7e38e91f7fae)
+![newman bugs 2](https://github.com/Dianab05/API-Testing-Project/assets/166596469/12c67afc-327a-44de-b5a1-81570c7a1790)
+<br>
+
 ****Inserati aici fie un fisier pdf care sa contina raportarea tuturor bug-urilor, fie le descrieti direct in git
 Bug-urile trebuie sa contina titlu, preconditii, pasi de executie, rezultate asteptate si rezultate actuale.
 Optional, bug-urile pot fi raportate in jira, si apoi puteti pune poze direct din jira**
 
 <h2>Conclusions</h2>
 
+For this API project was created a total of 24 requests, 48 tests scripts, 111 assertions, of witch 4 was failed. 
 **Inserati aici concluziile pe care le-ati obtinut in urma executarii testelor  si introduceti informatii cum ar fi cate teste au fost create si executate, ce procentaj aproximativ din cerintele in scop au fost acoperite, daca exista vreo functionalitate pe care nu ai apucat sa o testezi, daca bug-urile gasite impacteaza lansarea produsului in productie sau se pot fixa si ulterior, daca ai identificat riscuri de produs care trebuie mitigate, daca e vreo reecomandare pe care vrei sa o faci pentru lansare, daca sunt ceva lessons learned de care trebuie sa se tina cont la proiectele viitoare etc**
 
