@@ -9,7 +9,7 @@ API documentation for the API restful-booker: https://restful-booker.herokuapp.c
 
 Tools used: **Postman, Newman**
 
-Collection link: 
+Collection link: https://github.com/Dianab05/API-Testing-Project/blob/main/restful-booker.postman_collection.json
 
 <h2>Tests performed</h2>
 
