@@ -9,7 +9,7 @@ API documentation for the API restful-booker: https://restful-booker.herokuapp.c
 
 Tools used: **Postman, Newman**
 
-Collection link: https://github.com/Dianab05/API-Testing-Project/blob/main/restful-booker.postman_collection2
+Collection link: 
 
 <h2>Tests performed</h2>
 
@@ -211,18 +211,24 @@ Response status code: **404 Not Found** <br>
 
 <h2>Execution report for the created API collection </h2>
 
-Below you can find the execution report that was generated through the Postman collection runner. <br>
+**Below you can find the execution report that was generated through the Postman collection runner** <br>
 
-**Inserati aici o poza cu raportul de executie din Postman**<br>
+![collection runner](https://github.com/Dianab05/API-Testing-Project/assets/166596469/b6b0de02-c3da-4b7c-a366-c6fc47670f00)
 
-The collection was also run through newman directly from the terminal, and the results can be found below:<br>
+*Link for Postam collection runner**
 
-![newman sc](https://github.com/Dianab05/API-Testing-Project/assets/166596469/048495b7-3766-4c6e-8195-ad9666c07797)
 
-Below you can find the link for Newman execution report: <br>
-https://github.com/Dianab05/API-Testing-Project/blob/main/restful-booker-2024-05-30-08-10-19-564-0.html
+**The collection was also run through Newman directly from the terminal, and the results can be found below**<br>
 
-**Inserati aici o poza cu raportul de executie din Newman**<br>
+![newman report ](https://github.com/Dianab05/API-Testing-Project/assets/166596469/60af523f-8178-45e6-8a2d-8d274dcdfe09)
+
+
+**Below you can find the Newman execution report** <br>
+
+![newman sc](https://github.com/Dianab05/API-Testing-Project/assets/166596469/1b776e08-5ea6-441f-bed1-27e9dd823fe1)
+
+*Link for Newman execution report** <br>
+
 
 <h2>Defects found</h2>
 
