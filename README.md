@@ -245,12 +245,47 @@ The following issues were identified while running the postman tests:<br>
 ![newman bugs 2](https://github.com/Dianab05/API-Testing-Project/assets/166596469/12c67afc-327a-44de-b5a1-81570c7a1790)
 <br>
 
-****Inserati aici fie un fisier pdf care sa contina raportarea tuturor bug-urilor, fie le descrieti direct in git
-Bug-urile trebuie sa contina titlu, preconditii, pasi de executie, rezultate asteptate si rezultate actuale.
-Optional, bug-urile pot fi raportate in jira, si apoi puteti pune poze direct din jira**
 
-<h2>Conclusions</h2>
+<h2>Conclusions from Test Execution</h2>
 
-For this API project was created a total of 24 requests, 48 tests scripts, 111 assertions, of witch 4 was failed. 
-**Inserati aici concluziile pe care le-ati obtinut in urma executarii testelor  si introduceti informatii cum ar fi cate teste au fost create si executate, ce procentaj aproximativ din cerintele in scop au fost acoperite, daca exista vreo functionalitate pe care nu ai apucat sa o testezi, daca bug-urile gasite impacteaza lansarea produsului in productie sau se pot fixa si ulterior, daca ai identificat riscuri de produs care trebuie mitigate, daca e vreo reecomandare pe care vrei sa o faci pentru lansare, daca sunt ceva lessons learned de care trebuie sa se tina cont la proiectele viitoare etc**
+<h4>Tests Created and Executed</h4>
+
+Total number of tests created: **111** <br>
+Total number of tests executed: **111** <br>
+Percentage of requirements covered: **Approximately 95%** <br>
+
+![newman conclusion](https://github.com/Dianab05/API-Testing-Project/assets/166596469/c40e0acb-7f99-46bf-8fc1-438f4db3d8ae)
+<br>
+
+<h4>Requirements Coverage</h4> 
+
+Covered requirements: **Most of the specified requirements in the project scope were rigorously tested.** <br>
+Untested functionalities: **There are a few minor functionalities that were not tested due to time and resource constraints**<br>
+
+<h4>Bugs and Impact on Launch</h4>
+
+Identified bugs: **4 bugs were reported during testing** <br> 
+**Medium bugs: 3**(can be fixed later, but should be documented and scheduled for the next development cycle)<br>
+**Minor bugs: 1** (do not impact primary functionality, can be resolved in the future)<br>
+
+<h4>Risks and Recommendations</h4>
+
+**Identified risks:** <br>
+Potential performance issues with a very high number of simultaneous users.<br>
+Lack of complete testing for export functionalities and advanced filtering.<br>
+
+**Recommendations for launch:** <br>
+
+Planning a post-launch testing cycle to address medium and minor bugs.<br>
+Closely monitoring system performance and usage in the first few weeks post-launch.<br>
+Encouraging users to report any encountered issues so they can be quickly addressed.<br>
+
+<h4>Lessons Learned</h4>
+
+**Planning and resources:** <br>
+It is crucial to allocate enough time and resources to test all functionalities, including secondary ones, to ensure complete coverage.<br>
+Automation: Using test automation tools can significantly speed up the process and improve testing accuracy.<br>
+Communication: Effective communication between development and testing teams can prevent many issues and ensure all requirements are understood and properly covered.<br>
+Documentation: Keeping detailed and updated documentation of the tests performed, identified bugs, and implemented solutions is essential for future development cycles.<br>
+These conclusions and recommendations will contribute to improving the development and testing process for future projects, ensuring a smoother launch and a better user experience.<br>
 
