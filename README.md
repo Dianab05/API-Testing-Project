@@ -214,16 +214,18 @@ Response status code: **404 Not Found** <br>
 **Below you can find the execution report that was generated through the Postman collection runner** <br>
 
 ![collection runner](https://github.com/Dianab05/API-Testing-Project/assets/166596469/b6b0de02-c3da-4b7c-a366-c6fc47670f00)
+<br>
 
-*Link for Postam collection runner**
-
+*Link for Postam collection runner*<br>
+https://github.com/Dianab05/API-Testing-Project/blob/main/restful-booker.postman_collection_runner.json
+<br>
 
 **The collection was also run through Newman directly from the terminal, and the results can be found below**<br>
 
 ![newman report ](https://github.com/Dianab05/API-Testing-Project/assets/166596469/60af523f-8178-45e6-8a2d-8d274dcdfe09)
+<br>
 
-
-**Below you can find the Newman execution report** <br>
+**Below you can find the Newman execution report HTMLExtra** <br>
 
 ![newman sc](https://github.com/Dianab05/API-Testing-Project/assets/166596469/1b776e08-5ea6-441f-bed1-27e9dd823fe1)
 
